@@ -23,3 +23,4 @@ apps/
 ├─ api/    # Backend API
 └─ web/    # Frontend Web Application
 
+
