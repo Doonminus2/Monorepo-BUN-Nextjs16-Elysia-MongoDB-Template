@@ -59,3 +59,4 @@ bun run infra:up
 bun run start:api
 bun run start:web
 ```
+thx to use
