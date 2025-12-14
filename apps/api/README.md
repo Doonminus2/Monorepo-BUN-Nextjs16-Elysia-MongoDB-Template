@@ -28,6 +28,9 @@ To run:
 
 ```bash
 bun run index.ts
+bunx --bun prisma db push
+bunx --bun prisma generate
+bunx --bun prisma studio
 ```
 
 ### Environment Variables

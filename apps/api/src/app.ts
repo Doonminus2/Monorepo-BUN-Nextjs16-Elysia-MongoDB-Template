@@ -1,9 +1,8 @@
 import { Elysia } from "elysia";
-
+import { postsRouter } from "./routes/posts";
 
 export const app = new Elysia()
-  .get("/health", () => ({
-    status: "ok",
-    service: "api"
-  }));
+  .group("/api", (api) => api.use(postsRouter))
+  .get("/health", () => ({ ok: true }));
+ 
   

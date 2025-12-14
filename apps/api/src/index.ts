@@ -1,4 +1,5 @@
 import { app } from "./app";
-import {} from "dotenv/config";
-app.listen(3001);
-console.log("🦊 API running on http://localhost:3001");
+import { config } from "./config";
+
+app.listen(config.port);
+console.log(`API running on http://localhost:${config.port}`);
