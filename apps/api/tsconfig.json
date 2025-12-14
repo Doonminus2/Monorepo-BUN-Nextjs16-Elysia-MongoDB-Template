@@ -4,7 +4,7 @@
     // Environment setup & latest features
     "moduleDetection": "force",
     "allowJs": true,
-    "types": ["bun-types"] , 
+    "types": "module" , 
     
 
     // Bundler mode
